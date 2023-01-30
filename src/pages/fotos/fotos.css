@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+#mensagem{
+    font-family:'Kdam Thmor Pro', sans-serif ;
+    font-size: 30px;
+    color: #fff;
+    margin:0% 40%;
+}
+.fotos{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4, 2fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+
+.card{
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 1s;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 0 0 20px 10px;
+    color: #fff;
+    font-size: 17px;
+    font-family:'Kdam Thmor Pro', sans-serif ;
+}
+
+
+.batman{
+    background-image: url('https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2022/01/batman-robert-pattinson-2022.jpg');
+}
+.batman:hover{
+    transform: scale(1.09);
+}
+
+.mulhergato{
+    background-image: url('https://images.hdqwalls.com/wallpapers/zoe-kravitz-as-catwoman-in-the-batman-movie-2022-wb.jpg');
+}
+
+.mulhergato:hover{
+    transform: scale(1.09);
+}
+.gordon{
+    background-image: url('https://images.squarespace-cdn.com/content/v1/51b3dc8ee4b051b96ceb10de/07c53b1e-7aee-477d-8d45-c16c080faa75/new-featurette-for-the-batman-offers-additional-details-on-jeffrey-wrights-jim-gordon.jpg');
+}
+
+.gordon:hover{
+    transform: scale(1.09);
+}
+.charada{
+    background-image: url('https://bloody-disgusting.com/wp-content/uploads/2022/01/the-riddler-scary.png');
+}
+
+.charada:hover{
+    transform: scale(1.09);
+}
+
+.alfred{
+    background-image: url('https://rollingstone.uol.com.br/media/uploads/andy_serkis_em_the_batman_foto_divulgacao__warner_bros..jpg');
+}
+
+.alfred:hover{
+    transform:scale(1.09);
+}
+
+.pinguim{
+    background-image: url('https://rollingstone.uol.com.br/media/uploads/colin_farrell_como_pinguim_em_the_batman_foto_divulgacao-1920x1080.jpg');
+}
+
+.pinguim:hover{
+    transform: scale(1.09);
+}
+.falcone{
+    background-image: url('https://www.looper.com/img/gallery/the-big-carmine-falcone-twist-in-the-batman-no-one-saw-coming/l-intro-1646092126.jpg');
+}
+
+.falcone:hover{
+    transform: scale(1.09);
+}
+
+.gil{
+    background-image: url('https://cdn.mos.cms.futurecdn.net/oqKPJYSJa8DntdutStiBCf.jpg');
+}
+
+.gil:hover{
+    transform: scale(1.09);
+}

@@ -1,0 +1,39 @@
+footer {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: black;
+
+}
+span{
+    color: #fff;
+    font-family:'Kdam Thmor Pro', sans-serif ;
+}
+nav{
+    width: 50%;
+}
+
+ul{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+
+li{
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-style: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif ;
+}
+
+li:hover{
+    color: #d21617;
+}
+
+#logo{
+    width: 100px;
+    height: auto;
+}
