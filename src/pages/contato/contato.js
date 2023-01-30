@@ -14,7 +14,7 @@ function Contato(){
         <div>
             
            <div id="centropagina">
-              <p>Entre em contato conosco </p>
+              <p>Entre em contato conosco</p>
            </div>
            
     
