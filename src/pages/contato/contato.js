@@ -15,7 +15,6 @@ function Contato(){
             
            <div id="centropagina">
               <p>Entre em contato conosco </p>
-              <p>33131312</p>
            </div>
            
     
